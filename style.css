@@ -385,6 +385,10 @@ article .icon {
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
+  width: 30vh;
+}
+.project-desc{
+  width: 30vh;
 }
 
 /* CONTACT */
