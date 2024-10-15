@@ -268,22 +268,31 @@ section {
 
 #about {
   position: relative;
-}
+  display: flex;
+  flex-direction: column;
+  /* gap: 2rem; */
 
+}
+#about h1{
+  /* margin-bottom: 10rem; */
+}
 .about-containers {
   gap: 2rem;
   margin-bottom: 2rem;
-  margin-top: 2rem;
-}
-
-.about-details-container {
-  justify-content: center;
-  flex-direction: column;
+  /* margin-top: 15rem; */
 }
 
 .about-containers,
 .about-details-container {
   display: flex;
+}
+
+.about-details-container, #about-2 {
+  justify-content: center;
+  flex-direction: column;
+}
+.text-container{
+  margin-bottom: 15rem;
 }
 
 .about-pic {
@@ -321,6 +330,7 @@ section {
 
 #experience {
   position: relative;
+  margin-top: 5rem;
 }
 
 .experience-sub-title {
